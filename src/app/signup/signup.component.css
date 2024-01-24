@@ -1,0 +1,37 @@
+*{
+    color: rgb(42, 42, 42);
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.Containers
+{ margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 300px;
+    align-items: center;
+    text-align: center;
+}
+.getDetails
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input,option,button,select {
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(42, 42, 42);
+}
+
+select{
+    color: aliceblue;
+    margin-bottom: 20px;
+}
+
+button{
+    width: 150px;
+}

@@ -1,0 +1,18 @@
+<div class="Containers">
+  <h2>User Details</h2>
+    <form class="getDetails">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" [(ngModel)]="username" required>
+  
+      <label for="password">Password:</label>
+      <input type="password"  name="password" [(ngModel)]="password" required>
+  
+      <label for="role">Role:</label>
+      <select id="role" name="role" [(ngModel)]="selectedRole">
+        <option *ngFor="let role of roles" [value]="role">{{ role }}</option>
+      </select>
+  
+      <button type="submit" (click)="signUp()" >Sign Up</button>
+    </form>
+  </div>
+  
